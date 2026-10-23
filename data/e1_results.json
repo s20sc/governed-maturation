@@ -1,0 +1,471 @@
+{
+  "all_seeds_identity_byte_equal": true,
+  "confidence_trajectory": [
+    {
+      "by_capability": {
+        "manipulation.grasp": 1.0,
+        "manipulation.place": 1.0,
+        "navigation.move_to": 1.0,
+        "perception.locate_object": 1.0
+      },
+      "event_index": 0
+    },
+    {
+      "by_capability": {
+        "manipulation.grasp": 0.95,
+        "manipulation.place": 0.95,
+        "navigation.move_to": 1.0,
+        "perception.locate_object": 0.95
+      },
+      "event_index": 3
+    },
+    {
+      "by_capability": {
+        "manipulation.grasp": 0.9,
+        "manipulation.place": 0.9,
+        "navigation.move_to": 0.95,
+        "perception.locate_object": 0.95
+      },
+      "event_index": 6
+    },
+    {
+      "by_capability": {
+        "manipulation.grasp": 0.85,
+        "manipulation.place": 0.9,
+        "navigation.move_to": 0.95,
+        "perception.locate_object": 0.85
+      },
+      "event_index": 9
+    },
+    {
+      "by_capability": {
+        "manipulation.grasp": 0.85,
+        "manipulation.place": 0.8,
+        "navigation.move_to": 0.9,
+        "perception.locate_object": 0.85
+      },
+      "event_index": 12
+    },
+    {
+      "by_capability": {
+        "manipulation.grasp": 0.8,
+        "manipulation.place": 0.75,
+        "navigation.move_to": 0.9,
+        "perception.locate_object": 0.8
+      },
+      "event_index": 15
+    },
+    {
+      "by_capability": {
+        "manipulation.grasp": 0.75,
+        "manipulation.place": 0.7,
+        "navigation.move_to": 0.85,
+        "perception.locate_object": 0.8
+      },
+      "event_index": 18
+    },
+    {
+      "by_capability": {
+        "manipulation.grasp": 0.75,
+        "manipulation.place": 0.7,
+        "navigation.move_to": 0.85,
+        "perception.locate_object": 0.75
+      },
+      "event_index": 19
+    }
+  ],
+  "experiment": "e1_3year_maturation",
+  "final_skill_confidence": {
+    "manipulation.grasp": 0.75,
+    "manipulation.place": 0.7,
+    "navigation.move_to": 0.85,
+    "perception.locate_object": 0.75
+  },
+  "final_skill_confidence_aggregate": {
+    "manipulation.grasp": {
+      "ci_95_hi": 0.924217,
+      "ci_95_lo": 0.675783,
+      "max": 0.85,
+      "mean": 0.8,
+      "min": 0.75
+    },
+    "manipulation.place": {
+      "ci_95_hi": 0.7,
+      "ci_95_lo": 0.7,
+      "max": 0.7,
+      "mean": 0.7,
+      "min": 0.7
+    },
+    "navigation.move_to": {
+      "ci_95_hi": 1.01515,
+      "ci_95_lo": 0.58485,
+      "max": 0.85,
+      "mean": 0.8,
+      "min": 0.7
+    },
+    "perception.locate_object": {
+      "ci_95_hi": 0.788383,
+      "ci_95_lo": 0.64495,
+      "max": 0.75,
+      "mean": 0.716667,
+      "min": 0.7
+    }
+  },
+  "identity_hash_byte_equal": true,
+  "identity_hash_y0": "2d846b2cf2bf43dc1f26c1eec7696fc71681a8c4925c494be95bc9f797a2a98b",
+  "identity_hash_y1": "2d846b2cf2bf43dc1f26c1eec7696fc71681a8c4925c494be95bc9f797a2a98b",
+  "identity_hash_y3": "2d846b2cf2bf43dc1f26c1eec7696fc71681a8c4925c494be95bc9f797a2a98b",
+  "per_seed": [
+    {
+      "confidence_trajectory": [
+        {
+          "by_capability": {
+            "manipulation.grasp": 1.0,
+            "manipulation.place": 1.0,
+            "navigation.move_to": 1.0,
+            "perception.locate_object": 1.0
+          },
+          "event_index": 0
+        },
+        {
+          "by_capability": {
+            "manipulation.grasp": 0.95,
+            "manipulation.place": 0.95,
+            "navigation.move_to": 1.0,
+            "perception.locate_object": 0.95
+          },
+          "event_index": 3
+        },
+        {
+          "by_capability": {
+            "manipulation.grasp": 0.9,
+            "manipulation.place": 0.9,
+            "navigation.move_to": 0.95,
+            "perception.locate_object": 0.95
+          },
+          "event_index": 6
+        },
+        {
+          "by_capability": {
+            "manipulation.grasp": 0.85,
+            "manipulation.place": 0.9,
+            "navigation.move_to": 0.95,
+            "perception.locate_object": 0.85
+          },
+          "event_index": 9
+        },
+        {
+          "by_capability": {
+            "manipulation.grasp": 0.85,
+            "manipulation.place": 0.8,
+            "navigation.move_to": 0.9,
+            "perception.locate_object": 0.85
+          },
+          "event_index": 12
+        },
+        {
+          "by_capability": {
+            "manipulation.grasp": 0.8,
+            "manipulation.place": 0.75,
+            "navigation.move_to": 0.9,
+            "perception.locate_object": 0.8
+          },
+          "event_index": 15
+        },
+        {
+          "by_capability": {
+            "manipulation.grasp": 0.75,
+            "manipulation.place": 0.7,
+            "navigation.move_to": 0.85,
+            "perception.locate_object": 0.8
+          },
+          "event_index": 18
+        },
+        {
+          "by_capability": {
+            "manipulation.grasp": 0.75,
+            "manipulation.place": 0.7,
+            "navigation.move_to": 0.85,
+            "perception.locate_object": 0.75
+          },
+          "event_index": 19
+        }
+      ],
+      "final_skill_confidence": {
+        "manipulation.grasp": 0.75,
+        "manipulation.place": 0.7,
+        "navigation.move_to": 0.85,
+        "perception.locate_object": 0.75
+      },
+      "persona_adaptation_rows": 19,
+      "reflections_all_rejected": 11,
+      "reflections_with_event": 19,
+      "resolver_latency": {
+        "max_seconds": 1.9e-05,
+        "p50_seconds": 1.2e-05,
+        "p90_seconds": 1.8e-05,
+        "p99_seconds": 1.9e-05,
+        "samples": [
+          5e-06,
+          6e-06,
+          7e-06,
+          7e-06,
+          8e-06,
+          9e-06,
+          1e-05,
+          1.1e-05,
+          1.2e-05,
+          1.2e-05,
+          1.3e-05,
+          1.4e-05,
+          1.4e-05,
+          1.5e-05,
+          1.6e-05,
+          1.7e-05,
+          1.8e-05,
+          1.9e-05,
+          1.9e-05
+        ]
+      },
+      "seed": 42,
+      "wall_clock_seconds": 0.0422
+    },
+    {
+      "confidence_trajectory": [
+        {
+          "by_capability": {
+            "manipulation.grasp": 1.0,
+            "manipulation.place": 1.0,
+            "navigation.move_to": 1.0,
+            "perception.locate_object": 1.0
+          },
+          "event_index": 0
+        },
+        {
+          "by_capability": {
+            "manipulation.grasp": 0.95,
+            "manipulation.place": 0.95,
+            "navigation.move_to": 0.95,
+            "perception.locate_object": 0.95
+          },
+          "event_index": 4
+        },
+        {
+          "by_capability": {
+            "manipulation.grasp": 0.9,
+            "manipulation.place": 0.9,
+            "navigation.move_to": 0.9,
+            "perception.locate_object": 0.9
+          },
+          "event_index": 8
+        },
+        {
+          "by_capability": {
+            "manipulation.grasp": 0.85,
+            "manipulation.place": 0.85,
+            "navigation.move_to": 0.85,
+            "perception.locate_object": 0.85
+          },
+          "event_index": 12
+        },
+        {
+          "by_capability": {
+            "manipulation.grasp": 0.85,
+            "manipulation.place": 0.8,
+            "navigation.move_to": 0.75,
+            "perception.locate_object": 0.8
+          },
+          "event_index": 16
+        },
+        {
+          "by_capability": {
+            "manipulation.grasp": 0.8,
+            "manipulation.place": 0.7,
+            "navigation.move_to": 0.75,
+            "perception.locate_object": 0.75
+          },
+          "event_index": 20
+        },
+        {
+          "by_capability": {
+            "manipulation.grasp": 0.8,
+            "manipulation.place": 0.7,
+            "navigation.move_to": 0.7,
+            "perception.locate_object": 0.7
+          },
+          "event_index": 22
+        }
+      ],
+      "final_skill_confidence": {
+        "manipulation.grasp": 0.8,
+        "manipulation.place": 0.7,
+        "navigation.move_to": 0.7,
+        "perception.locate_object": 0.7
+      },
+      "persona_adaptation_rows": 22,
+      "reflections_all_rejected": 8,
+      "reflections_with_event": 22,
+      "resolver_latency": {
+        "max_seconds": 2.1e-05,
+        "p50_seconds": 1.5e-05,
+        "p90_seconds": 2.1e-05,
+        "p99_seconds": 2.1e-05,
+        "samples": [
+          7e-06,
+          8e-06,
+          1e-05,
+          1.1e-05,
+          1.3e-05,
+          1.5e-05,
+          1.6e-05,
+          1.8e-05,
+          1.9e-05,
+          2.1e-05,
+          2.1e-05
+        ]
+      },
+      "seed": 43,
+      "wall_clock_seconds": 0.0422
+    },
+    {
+      "confidence_trajectory": [
+        {
+          "by_capability": {
+            "manipulation.grasp": 1.0,
+            "manipulation.place": 1.0,
+            "navigation.move_to": 1.0,
+            "perception.locate_object": 1.0
+          },
+          "event_index": 0
+        },
+        {
+          "by_capability": {
+            "manipulation.grasp": 0.95,
+            "manipulation.place": 0.95,
+            "navigation.move_to": 1.0,
+            "perception.locate_object": 0.95
+          },
+          "event_index": 3
+        },
+        {
+          "by_capability": {
+            "manipulation.grasp": 0.95,
+            "manipulation.place": 0.9,
+            "navigation.move_to": 0.95,
+            "perception.locate_object": 0.9
+          },
+          "event_index": 6
+        },
+        {
+          "by_capability": {
+            "manipulation.grasp": 0.9,
+            "manipulation.place": 0.85,
+            "navigation.move_to": 0.95,
+            "perception.locate_object": 0.85
+          },
+          "event_index": 9
+        },
+        {
+          "by_capability": {
+            "manipulation.grasp": 0.9,
+            "manipulation.place": 0.8,
+            "navigation.move_to": 0.9,
+            "perception.locate_object": 0.8
+          },
+          "event_index": 12
+        },
+        {
+          "by_capability": {
+            "manipulation.grasp": 0.85,
+            "manipulation.place": 0.75,
+            "navigation.move_to": 0.9,
+            "perception.locate_object": 0.75
+          },
+          "event_index": 15
+        },
+        {
+          "by_capability": {
+            "manipulation.grasp": 0.85,
+            "manipulation.place": 0.7,
+            "navigation.move_to": 0.85,
+            "perception.locate_object": 0.7
+          },
+          "event_index": 18
+        }
+      ],
+      "final_skill_confidence": {
+        "manipulation.grasp": 0.85,
+        "manipulation.place": 0.7,
+        "navigation.move_to": 0.85,
+        "perception.locate_object": 0.7
+      },
+      "persona_adaptation_rows": 18,
+      "reflections_all_rejected": 12,
+      "reflections_with_event": 18,
+      "resolver_latency": {
+        "max_seconds": 1.8e-05,
+        "p50_seconds": 1.2e-05,
+        "p90_seconds": 1.7e-05,
+        "p99_seconds": 1.7e-05,
+        "samples": [
+          6e-06,
+          8e-06,
+          8e-06,
+          8e-06,
+          9e-06,
+          1e-05,
+          1.1e-05,
+          1.2e-05,
+          1.2e-05,
+          1.3e-05,
+          1.3e-05,
+          1.4e-05,
+          1.5e-05,
+          1.5e-05,
+          1.6e-05,
+          1.7e-05,
+          1.7e-05,
+          1.8e-05
+        ]
+      },
+      "seed": 44,
+      "wall_clock_seconds": 0.0416
+    }
+  ],
+  "quick_mode": false,
+  "reflection_summary_rows": 30,
+  "resolver_latency": {
+    "max_seconds": 1.9e-05,
+    "p50_seconds": 1.2e-05,
+    "p90_seconds": 1.8e-05,
+    "p99_seconds": 1.9e-05,
+    "samples": [
+      5e-06,
+      6e-06,
+      7e-06,
+      7e-06,
+      8e-06,
+      9e-06,
+      1e-05,
+      1.1e-05,
+      1.2e-05,
+      1.2e-05,
+      1.3e-05,
+      1.4e-05,
+      1.4e-05,
+      1.5e-05,
+      1.6e-05,
+      1.7e-05,
+      1.8e-05,
+      1.9e-05,
+      1.9e-05
+    ]
+  },
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "total_days": 1095,
+  "wall_clock_seconds": 0.126
+}

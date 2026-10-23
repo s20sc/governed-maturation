@@ -1,0 +1,46 @@
+{
+  "baseline_bundle_size_bytes": 1790,
+  "bundle_size_bytes": 143866,
+  "bundle_size_delta_mb": 0.1355,
+  "bundle_size_limit_mb": 10.0,
+  "bundle_size_mb": 0.1372,
+  "bundle_size_under_envelope": true,
+  "dest_adaptive_hash": "fcfc80979f309519dfe0c8f23d099fcf893fb3d111d49cba4b8439b156ba3009",
+  "dest_adaptive_payload": {
+    "human_check_threshold": {},
+    "risk_appetite_actual": 0.5,
+    "schema_version": "v1",
+    "skill_confidence": {
+      "manipulation.grasp": 0.8999999999999999,
+      "manipulation.place": 0.8999999999999999,
+      "navigation.move_to": 0.95,
+      "perception.locate_object": 0.8999999999999999
+    },
+    "tendencies": {}
+  },
+  "dest_identity_hash": "f052d5175ebc8f5597319761dc7ce6c67fdd6d01c508353617c6593637840038",
+  "effective_persona_byte_equal": true,
+  "experiment": "e3_cross_deployment",
+  "identity_hash_byte_equal": true,
+  "persona_adaptation_rows_dest": 7,
+  "persona_adaptation_rows_source": 7,
+  "quick_mode": false,
+  "reflection_summary_rows": 10,
+  "seed": 42,
+  "source_adaptive_hash": "fcfc80979f309519dfe0c8f23d099fcf893fb3d111d49cba4b8439b156ba3009",
+  "source_adaptive_payload": {
+    "human_check_threshold": {},
+    "risk_appetite_actual": 0.5,
+    "schema_version": "v1",
+    "skill_confidence": {
+      "manipulation.grasp": 0.8999999999999999,
+      "manipulation.place": 0.8999999999999999,
+      "navigation.move_to": 0.95,
+      "perception.locate_object": 0.8999999999999999
+    },
+    "tendencies": {}
+  },
+  "source_identity_hash": "f052d5175ebc8f5597319761dc7ce6c67fdd6d01c508353617c6593637840038",
+  "total_days": 365,
+  "wall_clock_seconds": 4.5931
+}

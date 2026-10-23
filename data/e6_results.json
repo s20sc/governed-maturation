@@ -1,0 +1,148 @@
+{
+  "experiment": "e6_checkpoint_recovery",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "retentions": [
+    1,
+    8,
+    64
+  ],
+  "events_per_run": 120,
+  "runs": [
+    {
+      "seed": 42,
+      "retention": 1,
+      "events": 120,
+      "base_seq": 119,
+      "retained_rows": 1,
+      "recovered_equal": true,
+      "stale_rejected_current_anchor": true,
+      "whole_state_and_anchor_rollback_accepted": true,
+      "export_bytes": 1795,
+      "state_sha256": "ece4101538e612cf601064de0ead630e0f9e3f5b6ee01b0a412a0a55c388bdcf",
+      "append_including_signing_p50_ms": 2.163458,
+      "append_including_signing_p99_ms": 4.418542
+    },
+    {
+      "seed": 42,
+      "retention": 8,
+      "events": 120,
+      "base_seq": 112,
+      "retained_rows": 8,
+      "recovered_equal": true,
+      "stale_rejected_current_anchor": true,
+      "whole_state_and_anchor_rollback_accepted": true,
+      "export_bytes": 6356,
+      "state_sha256": "ece4101538e612cf601064de0ead630e0f9e3f5b6ee01b0a412a0a55c388bdcf",
+      "append_including_signing_p50_ms": 5.962042,
+      "append_including_signing_p99_ms": 7.013
+    },
+    {
+      "seed": 42,
+      "retention": 64,
+      "events": 120,
+      "base_seq": 56,
+      "retained_rows": 64,
+      "recovered_equal": true,
+      "stale_rejected_current_anchor": true,
+      "whole_state_and_anchor_rollback_accepted": true,
+      "export_bytes": 42826,
+      "state_sha256": "ece4101538e612cf601064de0ead630e0f9e3f5b6ee01b0a412a0a55c388bdcf",
+      "append_including_signing_p50_ms": 35.186208,
+      "append_including_signing_p99_ms": 260.87975
+    },
+    {
+      "seed": 43,
+      "retention": 1,
+      "events": 120,
+      "base_seq": 119,
+      "retained_rows": 1,
+      "recovered_equal": true,
+      "stale_rejected_current_anchor": true,
+      "whole_state_and_anchor_rollback_accepted": true,
+      "export_bytes": 1787,
+      "state_sha256": "a88698f770d6d6eb848f9fb0217360319ac7bb628ac23932f800655c68e6761f",
+      "append_including_signing_p50_ms": 2.021709,
+      "append_including_signing_p99_ms": 3.2955
+    },
+    {
+      "seed": 43,
+      "retention": 8,
+      "events": 120,
+      "base_seq": 112,
+      "retained_rows": 8,
+      "recovered_equal": true,
+      "stale_rejected_current_anchor": true,
+      "whole_state_and_anchor_rollback_accepted": true,
+      "export_bytes": 6348,
+      "state_sha256": "a88698f770d6d6eb848f9fb0217360319ac7bb628ac23932f800655c68e6761f",
+      "append_including_signing_p50_ms": 6.027125,
+      "append_including_signing_p99_ms": 21.749625
+    },
+    {
+      "seed": 43,
+      "retention": 64,
+      "events": 120,
+      "base_seq": 56,
+      "retained_rows": 64,
+      "recovered_equal": true,
+      "stale_rejected_current_anchor": true,
+      "whole_state_and_anchor_rollback_accepted": true,
+      "export_bytes": 42819,
+      "state_sha256": "a88698f770d6d6eb848f9fb0217360319ac7bb628ac23932f800655c68e6761f",
+      "append_including_signing_p50_ms": 33.937916,
+      "append_including_signing_p99_ms": 85.146584
+    },
+    {
+      "seed": 44,
+      "retention": 1,
+      "events": 120,
+      "base_seq": 119,
+      "retained_rows": 1,
+      "recovered_equal": true,
+      "stale_rejected_current_anchor": true,
+      "whole_state_and_anchor_rollback_accepted": true,
+      "export_bytes": 1800,
+      "state_sha256": "684f35a90b36a1cc012a46b83641e628c056b1e2b9ca2da39c9d4bc7d9566879",
+      "append_including_signing_p50_ms": 2.260292,
+      "append_including_signing_p99_ms": 9.5295
+    },
+    {
+      "seed": 44,
+      "retention": 8,
+      "events": 120,
+      "base_seq": 112,
+      "retained_rows": 8,
+      "recovered_equal": true,
+      "stale_rejected_current_anchor": true,
+      "whole_state_and_anchor_rollback_accepted": true,
+      "export_bytes": 6361,
+      "state_sha256": "684f35a90b36a1cc012a46b83641e628c056b1e2b9ca2da39c9d4bc7d9566879",
+      "append_including_signing_p50_ms": 6.004792,
+      "append_including_signing_p99_ms": 22.689584
+    },
+    {
+      "seed": 44,
+      "retention": 64,
+      "events": 120,
+      "base_seq": 56,
+      "retained_rows": 64,
+      "recovered_equal": true,
+      "stale_rejected_current_anchor": true,
+      "whole_state_and_anchor_rollback_accepted": true,
+      "export_bytes": 42809,
+      "state_sha256": "684f35a90b36a1cc012a46b83641e628c056b1e2b9ca2da39c9d4bc7d9566879",
+      "append_including_signing_p50_ms": 34.463875,
+      "append_including_signing_p99_ms": 161.240541
+    }
+  ],
+  "limitations": [
+    "Synthetic calibration state only; all checkpoint manifests signed by operator authority in prototype.",
+    "No integrated legacy CLI/production service or external monotonic anchor deployment.",
+    "No rate-limit/circuit/EMA evidence state recovery; those mechanisms remain a separate experiment.",
+    "Timing includes signatures and SQLite commits on this host; not a deployment guarantee."
+  ]
+}

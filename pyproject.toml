@@ -1,0 +1,25 @@
+[project]
+name = "governed-maturation"
+version = "0.1.0"
+description = "Reference implementation: governed persona adaptation under a frozen cryptographic identity"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+dependencies = [
+    "pydantic>=2.0",
+    "pyyaml>=6.0",
+    "cryptography>=42.0",
+    "aiosqlite>=0.19",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

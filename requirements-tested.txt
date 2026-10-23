@@ -1,0 +1,16 @@
+# Tested on Python3.12.13; dependency versions, not portable latency guarantees.
+aiosqlite==0.22.1
+annotated-types==0.8.0
+cffi==2.1.1
+cryptography==50.0.2
+iniconfig==2.3.1
+packaging==26.3
+pluggy==1.7.0
+pycparser==3.11
+pydantic==2.14.1
+pydantic_core==2.50.1
+Pygments==2.21.0
+pytest==9.1.1
+PyYAML==6.0.3
+typing-inspection==0.4.4
+typing_extensions==4.16.0

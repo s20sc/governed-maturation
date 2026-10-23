@@ -1,0 +1,480 @@
+{
+  "T1_aggregate": {
+    "all_seeds_asymmetric_trust_fired": true,
+    "all_seeds_safety_floor_fired": true,
+    "all_seeds_triggered_mitigation": true,
+    "final_skill_confidence": {
+      "ci_95_hi": 0.1,
+      "ci_95_lo": 0.1,
+      "max": 0.1,
+      "mean": 0.1,
+      "min": 0.1
+    },
+    "max_drift_mitigated": {
+      "ci_95_hi": 0.9,
+      "ci_95_lo": 0.9,
+      "max": 0.9,
+      "mean": 0.9,
+      "min": 0.9
+    },
+    "max_drift_unmitigated": {
+      "ci_95_hi": 5.891464,
+      "ci_95_lo": 5.628536,
+      "max": 6.0,
+      "mean": 5.76,
+      "min": 5.5
+    },
+    "recovery_cost_clamped_events": {
+      "ci_95_hi": 49.914644,
+      "ci_95_lo": 47.285356,
+      "max": 51,
+      "mean": 48.6,
+      "min": 46
+    },
+    "seeds": 10,
+    "time_to_detection_failures": {
+      "ci_95_hi": 30.0,
+      "ci_95_lo": 30.0,
+      "max": 30,
+      "mean": 30.0,
+      "min": 30
+    }
+  },
+  "T1_per_seed": [
+    {
+      "at_least_one_trigger_fired": true,
+      "auto_applied_total": 9,
+      "auto_clamped_total": 47,
+      "auto_emitted_total": 56,
+      "baseline_rows": 881,
+      "failure_rows": 168,
+      "final_skill_confidence": 0.1,
+      "max_drift_mitigated": 0.9,
+      "max_drift_unmitigated": 5.6,
+      "persona_floor_clamps_total": {
+        "floor": 41,
+        "rate_limit": 6
+      },
+      "recovery_cost_clamped_events": 47,
+      "seed": 42,
+      "time_to_detection_failures": 30,
+      "triggers_fired": {
+        "asymmetric_trust_emit": true,
+        "asymmetric_trust_reflection": true,
+        "circuit_breaker": false,
+        "rate_limit": true,
+        "safety_floor": true
+      }
+    },
+    {
+      "at_least_one_trigger_fired": true,
+      "auto_applied_total": 9,
+      "auto_clamped_total": 49,
+      "auto_emitted_total": 58,
+      "baseline_rows": 804,
+      "failure_rows": 174,
+      "final_skill_confidence": 0.1,
+      "max_drift_mitigated": 0.9,
+      "max_drift_unmitigated": 5.8,
+      "persona_floor_clamps_total": {
+        "floor": 41,
+        "rate_limit": 8
+      },
+      "recovery_cost_clamped_events": 49,
+      "seed": 43,
+      "time_to_detection_failures": 30,
+      "triggers_fired": {
+        "asymmetric_trust_emit": true,
+        "asymmetric_trust_reflection": true,
+        "circuit_breaker": false,
+        "rate_limit": true,
+        "safety_floor": true
+      }
+    },
+    {
+      "at_least_one_trigger_fired": true,
+      "auto_applied_total": 9,
+      "auto_clamped_total": 51,
+      "auto_emitted_total": 60,
+      "baseline_rows": 852,
+      "failure_rows": 181,
+      "final_skill_confidence": 0.1,
+      "max_drift_mitigated": 0.9,
+      "max_drift_unmitigated": 6.0,
+      "persona_floor_clamps_total": {
+        "floor": 41,
+        "rate_limit": 10
+      },
+      "recovery_cost_clamped_events": 51,
+      "seed": 44,
+      "time_to_detection_failures": 30,
+      "triggers_fired": {
+        "asymmetric_trust_emit": true,
+        "asymmetric_trust_reflection": true,
+        "circuit_breaker": false,
+        "rate_limit": true,
+        "safety_floor": true
+      }
+    },
+    {
+      "at_least_one_trigger_fired": true,
+      "auto_applied_total": 9,
+      "auto_clamped_total": 50,
+      "auto_emitted_total": 59,
+      "baseline_rows": 834,
+      "failure_rows": 178,
+      "final_skill_confidence": 0.1,
+      "max_drift_mitigated": 0.9,
+      "max_drift_unmitigated": 5.9,
+      "persona_floor_clamps_total": {
+        "floor": 41,
+        "rate_limit": 9
+      },
+      "recovery_cost_clamped_events": 50,
+      "seed": 45,
+      "time_to_detection_failures": 30,
+      "triggers_fired": {
+        "asymmetric_trust_emit": true,
+        "asymmetric_trust_reflection": true,
+        "circuit_breaker": false,
+        "rate_limit": true,
+        "safety_floor": true
+      }
+    },
+    {
+      "at_least_one_trigger_fired": true,
+      "auto_applied_total": 9,
+      "auto_clamped_total": 46,
+      "auto_emitted_total": 55,
+      "baseline_rows": 913,
+      "failure_rows": 167,
+      "final_skill_confidence": 0.1,
+      "max_drift_mitigated": 0.9,
+      "max_drift_unmitigated": 5.5,
+      "persona_floor_clamps_total": {
+        "floor": 41,
+        "rate_limit": 5
+      },
+      "recovery_cost_clamped_events": 46,
+      "seed": 46,
+      "time_to_detection_failures": 30,
+      "triggers_fired": {
+        "asymmetric_trust_emit": true,
+        "asymmetric_trust_reflection": true,
+        "circuit_breaker": false,
+        "rate_limit": true,
+        "safety_floor": true
+      }
+    },
+    {
+      "at_least_one_trigger_fired": true,
+      "auto_applied_total": 9,
+      "auto_clamped_total": 46,
+      "auto_emitted_total": 55,
+      "baseline_rows": 845,
+      "failure_rows": 167,
+      "final_skill_confidence": 0.1,
+      "max_drift_mitigated": 0.9,
+      "max_drift_unmitigated": 5.5,
+      "persona_floor_clamps_total": {
+        "floor": 41,
+        "rate_limit": 5
+      },
+      "recovery_cost_clamped_events": 46,
+      "seed": 47,
+      "time_to_detection_failures": 30,
+      "triggers_fired": {
+        "asymmetric_trust_emit": true,
+        "asymmetric_trust_reflection": true,
+        "circuit_breaker": false,
+        "rate_limit": true,
+        "safety_floor": true
+      }
+    },
+    {
+      "at_least_one_trigger_fired": true,
+      "auto_applied_total": 9,
+      "auto_clamped_total": 49,
+      "auto_emitted_total": 58,
+      "baseline_rows": 870,
+      "failure_rows": 175,
+      "final_skill_confidence": 0.1,
+      "max_drift_mitigated": 0.9,
+      "max_drift_unmitigated": 5.8,
+      "persona_floor_clamps_total": {
+        "floor": 41,
+        "rate_limit": 8
+      },
+      "recovery_cost_clamped_events": 49,
+      "seed": 48,
+      "time_to_detection_failures": 30,
+      "triggers_fired": {
+        "asymmetric_trust_emit": true,
+        "asymmetric_trust_reflection": true,
+        "circuit_breaker": false,
+        "rate_limit": true,
+        "safety_floor": true
+      }
+    },
+    {
+      "at_least_one_trigger_fired": true,
+      "auto_applied_total": 9,
+      "auto_clamped_total": 49,
+      "auto_emitted_total": 58,
+      "baseline_rows": 808,
+      "failure_rows": 176,
+      "final_skill_confidence": 0.1,
+      "max_drift_mitigated": 0.9,
+      "max_drift_unmitigated": 5.8,
+      "persona_floor_clamps_total": {
+        "floor": 41,
+        "rate_limit": 8
+      },
+      "recovery_cost_clamped_events": 49,
+      "seed": 49,
+      "time_to_detection_failures": 30,
+      "triggers_fired": {
+        "asymmetric_trust_emit": true,
+        "asymmetric_trust_reflection": true,
+        "circuit_breaker": false,
+        "rate_limit": true,
+        "safety_floor": true
+      }
+    },
+    {
+      "at_least_one_trigger_fired": true,
+      "auto_applied_total": 9,
+      "auto_clamped_total": 48,
+      "auto_emitted_total": 57,
+      "baseline_rows": 863,
+      "failure_rows": 173,
+      "final_skill_confidence": 0.1,
+      "max_drift_mitigated": 0.9,
+      "max_drift_unmitigated": 5.7,
+      "persona_floor_clamps_total": {
+        "floor": 41,
+        "rate_limit": 7
+      },
+      "recovery_cost_clamped_events": 48,
+      "seed": 50,
+      "time_to_detection_failures": 30,
+      "triggers_fired": {
+        "asymmetric_trust_emit": true,
+        "asymmetric_trust_reflection": true,
+        "circuit_breaker": false,
+        "rate_limit": true,
+        "safety_floor": true
+      }
+    },
+    {
+      "at_least_one_trigger_fired": true,
+      "auto_applied_total": 9,
+      "auto_clamped_total": 51,
+      "auto_emitted_total": 60,
+      "baseline_rows": 831,
+      "failure_rows": 181,
+      "final_skill_confidence": 0.1,
+      "max_drift_mitigated": 0.9,
+      "max_drift_unmitigated": 6.0,
+      "persona_floor_clamps_total": {
+        "floor": 41,
+        "rate_limit": 10
+      },
+      "recovery_cost_clamped_events": 51,
+      "seed": 51,
+      "time_to_detection_failures": 30,
+      "triggers_fired": {
+        "asymmetric_trust_emit": true,
+        "asymmetric_trust_reflection": true,
+        "circuit_breaker": false,
+        "rate_limit": true,
+        "safety_floor": true
+      }
+    }
+  ],
+  "T5_aggregate": {
+    "all_seeds_full_rejection": true,
+    "all_seeds_zero_persona_emits": true,
+    "hallucination_rejection_rate": {
+      "max": 1.0,
+      "mean": 1.0,
+      "min": 1.0
+    },
+    "seeds": 10
+  },
+  "T5_per_seed": [
+    {
+      "hallucinated_capabilities": [
+        "motion.charge",
+        "perception.scan",
+        "perception.classify",
+        "manipulation.pour"
+      ],
+      "hallucination_rejection_rate": 1.0,
+      "persona_adaptation_rows": 0,
+      "proposed_deltas_total": 4,
+      "rejected_deltas_total": 4,
+      "seed": 42,
+      "validation_result": "all_rejected"
+    },
+    {
+      "hallucinated_capabilities": [
+        "motion.dock",
+        "manipulation.lift",
+        "perception.scan",
+        "motion.charge"
+      ],
+      "hallucination_rejection_rate": 1.0,
+      "persona_adaptation_rows": 0,
+      "proposed_deltas_total": 4,
+      "rejected_deltas_total": 4,
+      "seed": 43,
+      "validation_result": "all_rejected"
+    },
+    {
+      "hallucinated_capabilities": [
+        "motion.dock",
+        "perception.classify",
+        "motion.charge",
+        "manipulation.pour"
+      ],
+      "hallucination_rejection_rate": 1.0,
+      "persona_adaptation_rows": 0,
+      "proposed_deltas_total": 4,
+      "rejected_deltas_total": 4,
+      "seed": 44,
+      "validation_result": "all_rejected"
+    },
+    {
+      "hallucinated_capabilities": [
+        "perception.classify",
+        "perception.scan",
+        "manipulation.pour",
+        "manipulation.lift"
+      ],
+      "hallucination_rejection_rate": 1.0,
+      "persona_adaptation_rows": 0,
+      "proposed_deltas_total": 4,
+      "rejected_deltas_total": 4,
+      "seed": 45,
+      "validation_result": "all_rejected"
+    },
+    {
+      "hallucinated_capabilities": [
+        "motion.charge",
+        "perception.classify",
+        "motion.dock",
+        "manipulation.pour"
+      ],
+      "hallucination_rejection_rate": 1.0,
+      "persona_adaptation_rows": 0,
+      "proposed_deltas_total": 4,
+      "rejected_deltas_total": 4,
+      "seed": 46,
+      "validation_result": "all_rejected"
+    },
+    {
+      "hallucinated_capabilities": [
+        "manipulation.lift",
+        "manipulation.pour",
+        "motion.dock",
+        "perception.classify"
+      ],
+      "hallucination_rejection_rate": 1.0,
+      "persona_adaptation_rows": 0,
+      "proposed_deltas_total": 4,
+      "rejected_deltas_total": 4,
+      "seed": 47,
+      "validation_result": "all_rejected"
+    },
+    {
+      "hallucinated_capabilities": [
+        "perception.classify",
+        "manipulation.lift",
+        "motion.charge",
+        "motion.dock"
+      ],
+      "hallucination_rejection_rate": 1.0,
+      "persona_adaptation_rows": 0,
+      "proposed_deltas_total": 4,
+      "rejected_deltas_total": 4,
+      "seed": 48,
+      "validation_result": "all_rejected"
+    },
+    {
+      "hallucinated_capabilities": [
+        "manipulation.pour",
+        "perception.scan",
+        "perception.classify",
+        "motion.dock"
+      ],
+      "hallucination_rejection_rate": 1.0,
+      "persona_adaptation_rows": 0,
+      "proposed_deltas_total": 4,
+      "rejected_deltas_total": 4,
+      "seed": 49,
+      "validation_result": "all_rejected"
+    },
+    {
+      "hallucinated_capabilities": [
+        "perception.classify",
+        "manipulation.lift",
+        "perception.scan",
+        "motion.charge"
+      ],
+      "hallucination_rejection_rate": 1.0,
+      "persona_adaptation_rows": 0,
+      "proposed_deltas_total": 4,
+      "rejected_deltas_total": 4,
+      "seed": 50,
+      "validation_result": "all_rejected"
+    },
+    {
+      "hallucinated_capabilities": [
+        "motion.dock",
+        "motion.charge",
+        "manipulation.lift",
+        "perception.classify"
+      ],
+      "hallucination_rejection_rate": 1.0,
+      "persona_adaptation_rows": 0,
+      "proposed_deltas_total": 4,
+      "rejected_deltas_total": 4,
+      "seed": 51,
+      "validation_result": "all_rejected"
+    }
+  ],
+  "baseline_comparison": {
+    "aeros_typed_event_with_floor": {
+      "floor_active": true,
+      "max_drift_mitigated_max": 0.9,
+      "max_drift_mitigated_mean": 0.9,
+      "model": "discrete_typed_event_with_safety_floor"
+    },
+    "continuous_bayesian_no_floor": {
+      "decay_per_failure": 0.95,
+      "final_confidence": 0.000211,
+      "floor_active": false,
+      "max_drift_unmitigated": 0.999789,
+      "model": "continuous_bayesian_no_floor",
+      "n_failures": 165
+    }
+  },
+  "baseline_rows": 800,
+  "experiment": "e2_adversarial_drift",
+  "failure_rows": 165,
+  "quick_mode": false,
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+  ],
+  "wall_clock_seconds": 0.1219
+}

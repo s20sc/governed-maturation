@@ -1,0 +1,72 @@
+{
+  "experiment": "e4_fold_latency_scaling",
+  "seed": 42,
+  "config": {
+    "sizes": [
+      100,
+      1000,
+      10000,
+      100000
+    ],
+    "reps": 100,
+    "warmup": 3,
+    "runtime_budget_ms": 25.0,
+    "kind_mix": "40% conf-decrease / 15% drift / 15% risk-tighten / 15% signed conf-increase / 10% signed hct-relax / 5% signed risk-relax"
+  },
+  "environment": {
+    "python": "3.12.13",
+    "platform": "macOS-26.5-arm64-arm-64bit",
+    "cpu": "Apple M1 Max",
+    "timestamp_utc": "2026-06-11T11:31:03+00:00"
+  },
+  "sweep": [
+    {
+      "window_size": 100,
+      "reps": 100,
+      "p50_us": 114.459,
+      "p90_us": 118.833,
+      "p99_us": 120.5,
+      "max_us": 121.458,
+      "mean_us": 115.44,
+      "ns_per_event_p50": 1144.59,
+      "within_25ms_budget_p99": true
+    },
+    {
+      "window_size": 1000,
+      "reps": 100,
+      "p50_us": 1084.5,
+      "p90_us": 1119.125,
+      "p99_us": 1195.375,
+      "max_us": 1205.125,
+      "mean_us": 1092.58051,
+      "ns_per_event_p50": 1084.5,
+      "within_25ms_budget_p99": true
+    },
+    {
+      "window_size": 10000,
+      "reps": 100,
+      "p50_us": 10702.25,
+      "p90_us": 10875.875,
+      "p99_us": 11224.584,
+      "max_us": 11251.0,
+      "mean_us": 10756.74998,
+      "ns_per_event_p50": 1070.225,
+      "within_25ms_budget_p99": true
+    },
+    {
+      "window_size": 100000,
+      "reps": 100,
+      "p50_us": 108940.5,
+      "p90_us": 110417.875,
+      "p99_us": 111871.25,
+      "max_us": 111917.541,
+      "mean_us": 109168.65289,
+      "ns_per_event_p50": 1089.405,
+      "within_25ms_budget_p99": false
+    }
+  ],
+  "headline": {
+    "max_window_within_budget": 10000,
+    "p99_at_100k_ms": 111.87125
+  }
+}
